@@ -1,24 +1,17 @@
 import React from 'react'
-import img  from "../../assests/img.jpg"
-// import  "./home.css"
+import own  from "../../assests/own.png"
+import  "./home.css"
 export default function Home() {
   return (
-    <div  class="content row">
-      {/* <img class="  col-lg-6" src={img}  /> */}
-
-      <div  class="  col-lg-6">
-
-    
-            <h2>i'm Abdelkader Ould Hennia</h2>
-            <h4>
-                Software Devveloper & Backend Developer
-            </h4>
-            <div className='link'>
-                <span>ss</span>
-                <span>dd</span>
-                <span>tt</span>
-            </div>
-      </div>
+    <div  class="row home">
+        <div className='col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6'>
+            <img src={own} />
+        </div>
+        <div className='col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6'>
+            <h1>AbdelKader Ould Hennia</h1>
+            <p>Web Designer & Software Developer</p>
+        </div>
+        
     </div>
   )
 }

@@ -4,5 +4,7 @@
   box-sizing: border-box;
 }
 body{
-  background-color: rgb(47, 47, 124);
+  /* background-color: #3c6bbd ; */
+  background-color: #14479a ;
+  color: white;
 }
