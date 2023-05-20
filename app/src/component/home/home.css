@@ -33,10 +33,10 @@
 
 }
 .home{
-    background-color: #ffc3ba;
+    background-color: #14479a;
 }
 .home div:nth-child(2){
-    background-color: rgb(255, 151, 151);
+    background-color: #14479a;
 }
 .home div:nth-child(2) .resume{
 
