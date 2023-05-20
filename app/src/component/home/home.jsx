@@ -10,8 +10,15 @@ export default function Home() {
         <div className='col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6'>
             <h1>AbdelKader Ould Hennia</h1>
             <p>Web Designer & Software Developer</p>
+            <div class=" resume">My Resume<i class="ms-2 fa-solid fa-download"></i></div>
+            <div className='social'>
+                  <i class="fa-brands fa-linkedin"></i>
+                  <i class="fa-brands fa-github"></i>
+                  <i class="fa-solid fa-envelope"></i>
+                  <i class="fa-brands fa-whatsapp"></i>
+                  <i class="fa-brands fa-facebook"></i>
+            </div>
         </div>
-        
     </div>
   )
 }
