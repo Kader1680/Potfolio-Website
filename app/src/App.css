@@ -2,9 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto Slab', serif;
 }
-body{
-  /* background-color: #3c6bbd ; */
-  background-color: #a6b5ce ;
-  color: white;
-}
+

@@ -8,8 +8,8 @@ export default function Field(props) {
         <div className='square'>
             <img src = {img}/>
             <h3> {title}</h3>
-            <a className=' text-decoration-none text-black fw-bolder' href={link}>link</a>
-            <a className='ms-4 text-decoration-none text-black fw-bolder' href={source}>source code</a>
+            <a className=' text-decoration-none fw-bolder' href={link}>link</a>
+            <a className='ms-4 text-decoration-none  fw-bolder' href={source}>source code</a>
         </div>
     </div>
   )

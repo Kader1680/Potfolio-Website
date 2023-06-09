@@ -6,19 +6,18 @@ import './navbar.css'
 import React from 'react'
 
 export default function Navbar() {
-  
 
   return (
 
   <nav class="navbar">
 
-        <div class="left">
+        <div class="Title">
 
             <h1>Portfolio</h1>
 
         </div>
 
-        <div class="right">
+        <div class="Items">
 
             <input type="checkbox" id="check" />
 
@@ -30,11 +29,11 @@ export default function Navbar() {
 
             <ul class="list">
 
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About </a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/About">About </a></li>
                 <li><a href="/Project">Project</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="/Services">Services</a></li>
+                <li><a href="/Contact">Contact</a></li>
 
             </ul>
 
@@ -44,10 +43,4 @@ export default function Navbar() {
   )
 }
 
-
-// const Navbar = () => {
-  
-
-
-// }
 

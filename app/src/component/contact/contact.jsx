@@ -2,11 +2,11 @@ import React from 'react'
 import './contact.css'
 export default function Contact() {
   return (
-    <div class="container">
+    <div class="contact container">
 	<form>
 		<div class="field" tabindex="1">
 			<label for="username">
-				<i class="far fa-user"></i>Your Name
+				<i class="far fa-user"></i>name
 			</label>
 			<input name="username" type="text" placeholder="e.g. john doe" required />
 		</div>
@@ -24,13 +24,10 @@ export default function Contact() {
 		</div>
 		<button type="reset">Send Me Message</button>
 		<div class="social-media">
-			<span>
-				Get In Touch<i class="fas fa-long-arrow-alt-right"></i>
-			</span>
-			<a class="fab fa-facebook-f" href="https://facebook.com/uzcho" target="blank_"></a>
-			<a class="fab fa-twitter" href="https://twitter.com/uzcho_" target="blank_"></a>
-			<a class="fab fa-instagram" href="https://www.instagram.com/uzcho_" target="blank_"></a>
-			<a class="fab fa-codepen" href="https://codepen.io/uzcho_" target="blank_"></a>
+			<a class="fab fa-github" href="https://facebook.com/uzcho" target="blank_"></a>
+			<a class="fab fa-linkedin" href="https://twitter.com/uzcho_" target="blank_"></a>
+			<a class="fab fa-whatsapp" href="https://codepen.io/uzcho_" target="blank_"></a>
+			<a class="fab fa-facebook" href="https://codepen.io/uzcho_" target="blank_"></a>
 		</div>
 	</form>
 </div>

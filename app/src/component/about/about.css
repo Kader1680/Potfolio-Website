@@ -1,4 +1,57 @@
-img{
+body{
+    background-color: #78bCC4;
+}
+.DataPersonel  h3{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: white;
+    text-decoration-line: underline;
+    -moz-text-decoration-line: underline;
+}
+.DataPersonel{
+    margin-left: 9px;
+}
+.DataPersonel span{
+    color: black;
+    font-size: 16px;
+}
+.right h3{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: white;
+    text-decoration-line: underline;
+    -moz-text-decoration-line: underline;
+}
+.right p{
+    font-size: 20px;
+    color: black;
+
+}
+.left img{
     width: 300px;
     height: 300px;
+    margin: auto;
+    display: block;
+}
+
+@media(max-width: 767px){
+    .right{
+        width: 96%;
+        margin: auto;
+        text-align: start;
+    }
+}
+@media(min-width: 767px){
+    .about{
+        width: 100%;
+    }
+    .description{
+        display: block;
+        width: 88%;
+        margin: auto;
+    }
+    .description p{
+        font-size: 20px;
+
+    }
 }

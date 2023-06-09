@@ -1,14 +1,9 @@
+form{
+  font-family: 'Roboto Slab', serif;
+
+}
 .container{
-    margin-top: 5rem;
-}
-
-* {
-  font-family: "Saira Semi Condensed", sans-serif;
-  transition: all 0.5s ease;
-}
-
-body {
-  background: #dfdfdf;
+  margin-top: 5rem;
 }
 
 .container {
@@ -47,21 +42,18 @@ textarea {
 
 label,
 [placeholder] {
-  color: #555;
+  color: white;
   border: 0;
   outline: none;
 }
 
 label i {
   margin: 0 10px 0 0;
-  
 }
-
 .field:focus-within label {
-  color: #000;
+  color: #002C3E;
   letter-spacing: 2px;
 }
-
 input,
 textarea {
   background: rgba(255, 255, 255, 0.5);
@@ -74,33 +66,27 @@ textarea:focus {
   background: white;
   box-shadow: none;
 }
-
 textarea {
   resize: none;
 }
 textarea::-webkit-scrollbar {
   width: 0;
 }
-
 button {
-  background: #2f4ad0;
+  color: white;
+  background-color : #002C3E;
   margin: 16px 0 50px 0;
   padding: 8px 16px;
-  color: #fff;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   box-shadow: 0 8px 6px -6px #555;
 }
-button:hover {
-  letter-spacing: 2px;
-  box-shadow: none;
-}
-
 .social-media {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  margin: auto;
 }
 :not(.social-media) {
   font-size: 14px;
@@ -108,8 +94,17 @@ button:hover {
 .social-media span {
   font-size: 16px;
 }
-.social-media span .fas {
+
+.social-media .fab {
   margin: 0 0 0 10px;
+  color: white;
+  background-color : #002C3E;
+  padding: 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 .social-media a {
   color: #000;
