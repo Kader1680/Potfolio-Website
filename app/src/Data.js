@@ -28,28 +28,32 @@ export const Data = [
         source:"https://github.com/Kader1680/Student-System-OOP-C-"
     },
     {
-        title: "React Web Appliaction",
+        title: "Convert Psd To Html",
         langage : "html",
         img : convert,
-        source:"https://github.com/Kader1680/Student-System-OOP-C-"
+        link:"https://kader1680.github.io/Convert-Psd-To-Html/",
+        source:"https://github.com/Kader1680/Convert-Psd-To-Html"
     },
 
     {
-        title: "CoffeeShop Website",
+        title: "Old Porftolio using Jquery",
         langage : "html",
         img : portfolio,
-        source:"https://github.com/Kader1680/Student-System-OOP-C-"
+        link:" https://kader1680.github.io/Personel-Site/",
+        source:"https://github.com/Kader1680/Personel-Site"
     },
     {
-        title: "albert Website",
+        title: "CoffeeShop Website",
         langage : "html",
         img : coffe,
-        source:"https://github.com/Kader1680/Student-System-OOP-C-"
+        link:" https://kader1680.github.io/CofeeBreak/",
+        source:"https://github.com/Kader1680/CofeeBreak"
     },
     {
         title: "albert Website",
         langage : "html",
         img : albert,
-        source:"https://github.com/Kader1680/Student-System-OOP-C-"
+        link:"https://kader1680.github.io/ClientFiverrWebsite/",
+        source:"https://github.com/Kader1680/ClientFiverrWebsite"
     },
 ]
