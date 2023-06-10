@@ -1,5 +1,6 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, BrowserRouter } from 'react-router-dom';
+
 import Navbar from './component/navbar/navbar.jsx'
 import Home from './component/home/home';
 import About from './component/about/about';
@@ -9,17 +10,18 @@ function App() {
   return (
 
       <div class="app">
-
             <Navbar />
-            <Router basename='/Potfolio-Website'>
+
+            <Router >
               <Routes>
-                    <Route path="/" element={<Home  />} />
-                    <Route path="/Potfolio-Website/" element={<Home  />} />
-                    <Route path="/Potfolio-Website/About/" element={<About  />} />
-                    <Route path="/Project/" element={<Project  />} />
-                    <Route path="/Contact/" element={<Contact  />} />
+                    {/* <Route path="/" element={<Home  />} /> */}
+                    <Route path="/Potfolio-Website" element={<Home  />} />
+                    <Route path="/About" element={<About  />} />
+                    <Route path="/Project" element={<Project  />} />
+                    <Route path="/Contact" element={<Contact  />} />
               </Routes>
             </Router>
+            
 
 
             {/* <Router >
