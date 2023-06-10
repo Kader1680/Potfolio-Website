@@ -1,10 +1,13 @@
-
+nav{
+    position: fixed;
+}
 .navbar {
     background-color: #002C3E;
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    
 }
 .Title{
     

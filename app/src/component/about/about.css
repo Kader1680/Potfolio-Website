@@ -1,6 +1,10 @@
 body{
     background-color: #78bCC4;
 }
+.about{
+    width: 100%;
+    padding-top: 4rem;
+}
 .DataPersonel  h3{
     font-weight: bolder;
     font-size: 1.5rem;
@@ -12,26 +16,31 @@ body{
     margin-left: 9px;
 }
 .DataPersonel span{
-    color: black;
+    color: #002C3E;
     font-size: 16px;
 }
 .right h3{
     font-weight: bolder;
     font-size: 1.5rem;
-    color: white;
+    color: #f7444e;
     text-decoration-line: underline;
     -moz-text-decoration-line: underline;
 }
-.right p{
+/* .right p{
     font-size: 20px;
-    color: black;
+    color: #f7444e;
 
-}
+} */
 .left img{
     width: 300px;
     height: 300px;
     margin: auto;
     display: block;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
 @media(max-width: 767px){
@@ -39,6 +48,11 @@ body{
         width: 96%;
         margin: auto;
         text-align: start;
+    }
+    .description{
+        width: 90%;
+        display: block;
+        margin: auto;
     }
 }
 @media(min-width: 767px){
