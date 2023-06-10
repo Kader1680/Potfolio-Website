@@ -3,9 +3,12 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <div>
-      jhgjhjghgjghghg
-    </div>
+
+    <footer>
+    jjlkjklj
+    </footer>
+
+
   )
 }
 

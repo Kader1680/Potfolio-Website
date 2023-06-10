@@ -30,4 +30,22 @@ export const Data = [
         img : react,
         source:"https://github.com/Kader1680/Student-System-OOP-C-"
     },
+    {
+        title: "Todo List React Js",
+        langage : "html",
+        img : react,
+        source:"https://github.com/Kader1680/Student-System-OOP-C-"
+    },
+    {
+        title: "CoffeeShop Website",
+        langage : "html",
+        img : react,
+        source:"https://github.com/Kader1680/Student-System-OOP-C-"
+    },
+    {
+        title: "albert Website",
+        langage : "html",
+        img : react,
+        source:"https://github.com/Kader1680/Student-System-OOP-C-"
+    },
 ]
