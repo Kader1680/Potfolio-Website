@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/Potfolio-Website/static/css/main.72d5dd0e.css",
-    "main.js": "/Potfolio-Website/static/js/main.ef400e50.js",
+    "main.css": "/Potfolio-Website/static/css/main.8f8ab0a3.css",
+    "main.js": "/Potfolio-Website/static/js/main.f20a8a48.js",
     "static/js/787.c1112931.chunk.js": "/Potfolio-Website/static/js/787.c1112931.chunk.js",
     "static/media/img.jpg": "/Potfolio-Website/static/media/img.119b210e6b14ce926c1b.jpg",
     "static/media/own.png": "/Potfolio-Website/static/media/own.42c93894d0b5068805e0.png",
+    "static/media/be-your-html-css-bootstrap-and-javascript-coder.jpg": "/Potfolio-Website/static/media/be-your-html-css-bootstrap-and-javascript-coder.1636210911f6092c6fc9.jpg",
+    "static/media/build-a-responsive-landing-page-in-20-hours.jpg": "/Potfolio-Website/static/media/build-a-responsive-landing-page-in-20-hours.82183990a28db86ee8f4.jpg",
     "static/media/react-javascript.png": "/Potfolio-Website/static/media/react-javascript.98ca7180ae758977bd88.png",
     "static/media/c++.png": "/Potfolio-Website/static/media/c++.285dc213d0fc1fa1d58d.png",
     "index.html": "/Potfolio-Website/index.html",
-    "main.72d5dd0e.css.map": "/Potfolio-Website/static/css/main.72d5dd0e.css.map",
-    "main.ef400e50.js.map": "/Potfolio-Website/static/js/main.ef400e50.js.map",
+    "main.8f8ab0a3.css.map": "/Potfolio-Website/static/css/main.8f8ab0a3.css.map",
+    "main.f20a8a48.js.map": "/Potfolio-Website/static/js/main.f20a8a48.js.map",
     "787.c1112931.chunk.js.map": "/Potfolio-Website/static/js/787.c1112931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.72d5dd0e.css",
-    "static/js/main.ef400e50.js"
+    "static/css/main.8f8ab0a3.css",
+    "static/js/main.f20a8a48.js"
   ]
 }
