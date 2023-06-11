@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 import './navbar.css'
@@ -7,9 +6,9 @@ import React from 'react'
 
 export default function Navbar() {
 
-  return (
+    return (
 
-  <nav class="navbar">
+    <nav class="navbar">
 
         <div class="Title">
 
@@ -29,11 +28,13 @@ export default function Navbar() {
 
             <ul class="list">
 
-                <li><a href="/Potfolio-Website">Home</a></li>
-                <li><a href="/Potfolio-Website/About">About </a></li>
-                <li><a href="/Potfolio-Website/Project">Project</a></li>
-                <li><a href="/Potfolio-Website/Services">Services</a></li>
-                <li><a href="/Potfolio-Website/Contact">Contact</a></li>
+                {/* <li><Link to = "/">Home</Link></li> */}
+                
+                <li><Link to="/Potfolio-Website">Home</Link></li> 
+                <li><Link to="/Potfolio-Website/About">About </Link></li>
+                <li><Link to="/Potfolio-Website/Project">Project</Link></li>
+                <li><Link to="/Potfolio-Website/Services">Services</Link></li>
+                <li><Link to="/Potfolio-Website/Contact">Contact</Link></li>
 
             </ul>
 
