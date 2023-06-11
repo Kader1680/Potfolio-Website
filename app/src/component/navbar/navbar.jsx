@@ -28,7 +28,6 @@ export default function Navbar() {
 
             <ul class="list">
 
-                {/* <li><Link to = "/">Home</Link></li> */}
                 
                 <li><Link to="/Potfolio-Website">Home</Link></li> 
                 <li><Link to="/Potfolio-Website/About">About </Link></li>
