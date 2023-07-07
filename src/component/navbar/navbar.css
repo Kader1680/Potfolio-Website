@@ -2,21 +2,24 @@ nav{
     position: fixed;
 }
 .navbar {
-    background-color: #002C3E;
+    background-color: #Ffffff;
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    color: #1b303c;
     
 }
 .Title{
+    background-color: #Ffffff;
     
     margin-left: 2rem;
 }
 .Title h1 {
     font-size: 2.5rem;
     cursor: pointer;
-    color: white;
+    background-color: #Ffffff;
+
 }
 
 .checkBtn {
@@ -31,33 +34,41 @@ nav{
     cursor: pointer;
     font-size: 36px;
     float: right;
-    color: white;
+    
     margin-top: -3rem;
 }
 .checkBtn .fa-bars{
     
     font-size: 2rem;
 }
+.Items{
+background-color: #Ffffff;
+
+}
 .Items ul {
     display: flex;
     list-style: none;
     margin-top: 10px;
+background-color: #Ffffff;
 
 }
 
 .Items ul li a {
+    background-color: #Ffffff;
     padding: 10px 20px;
     font-size: 1.2rem;
-    color: white;
+    color: #1b303c;
     cursor: pointer;
     text-decoration: none;
     transition: all 1s;
 }
 
 .Items ul li a:hover {
-    background-color: #fff;
-    border-radius: 7px;
-    color: rgb(22, 7, 36);
+    
+    color: #1930ff;
+    border-bottom: 2px solid #1930ff;
+    transition: .2s;
+    width:   10%;
 }
 
 @media screen and (max-width:805px) {
