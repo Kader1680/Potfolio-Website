@@ -1,36 +1,36 @@
 import React from 'react'
 import './contact.css'
+import contact1 from "../../assests/contact1.png"
 export default function Contact() {
   return (
-    <div class="contact container">
-	<form>
-		<div class="field" tabindex="1">
-			<label for="username">
-				<i class="far fa-user"></i>name
-			</label>
-			<input name="username" type="text" placeholder="e.g. john doe" required />
-		</div>
-		<div class="field" tabindex="2">
-			<label for="email">
-				<i class="far fa-envelope"></i>Your Email
-			</label>
-			<input name="email" type="text" placeholder="email@domain.com" required />
-		</div>
-		<div class="field" tabindex="3">
-			<label for="message">
-				<i class="far fa-edit"></i>Your Message
-			</label>
-			<textarea name="message" placeholder="type here" required></textarea>
-		</div>
-		<button type="reset">Send Me Message</button>
-		<div class="social-media">
-			<a class="fab fa-github" href="https://facebook.com/uzcho" target="blank_"></a>
-			<a class="fab fa-linkedin" href="https://twitter.com/uzcho_" target="blank_"></a>
-			<a class="fab fa-whatsapp" href="https://codepen.io/uzcho_" target="blank_"></a>
-			<a class="fab fa-facebook" href="https://codepen.io/uzcho_" target="blank_"></a>
-		</div>
-	</form>
-</div>
+    <div class="row contact container bg-white" >
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+        <img src={contact1} />
+        </div>
+        <form class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 " method='Post'>
+            <div class="inputField">
+                <i class="fa-solid fa-user"></i>
+                <input placeholder='Name' />
+            </div>
+            <div class="inputField">
+                <i class="fa-solid fa-envelope"></i>
+                <input  placeholder='Email' />
+            </div>
+            <div class="inputField">
+                <i class="fa-solid fa-phone"></i>
+                <input  placeholder='Phone'/>
+            </div>
+            <div class="inputField">
+                <i class="fa-solid fa-message"></i>
+                <input  placeholder='Message'/>
+            </div>
+            <button>Submit Now</button>
+
+
+        </form>
+    </div>
+
+
 
 
   )
