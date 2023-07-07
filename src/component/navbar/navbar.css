@@ -1,0 +1,90 @@
+nav{
+    position: fixed;
+}
+.navbar {
+    background-color: #002C3E;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    
+}
+.Title{
+    
+    margin-left: 2rem;
+}
+.Title h1 {
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: white;
+}
+
+.checkBtn {
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.checkBtn {
+    cursor: pointer;
+    font-size: 36px;
+    float: right;
+    color: white;
+    margin-top: -3rem;
+}
+.checkBtn .fa-bars{
+    
+    font-size: 2rem;
+}
+.Items ul {
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+
+}
+
+.Items ul li a {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 1s;
+}
+
+.Items ul li a:hover {
+    background-color: #fff;
+    border-radius: 7px;
+    color: rgb(22, 7, 36);
+}
+
+@media screen and (max-width:805px) {
+    .list {
+        width: 100%;
+        height: 100vh;
+        background-color: #002C3E;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 2rem;
+        left: 100%;
+        transition: all 1s;
+    }
+    #check {
+        display: none;
+    }
+    .checkBtn {
+        display: block;
+        margin-right: 1rem;
+    }
+    #check:checked~ul {
+        left: 0%;
+        margin-top: 30px;
+    }
+    #check:checked~ul li{
+    margin-top: 30px;
+}
+}
