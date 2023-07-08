@@ -15,8 +15,13 @@ import Tailwind from "../../assests/Tailwind.png"
 import php from "../../assests/php.png"
 import javascript from "../../assests/javascript.png"
 import mysql from "../../assests/mysql.png"
-import amaz from "../../assests/mysql.png"
+import amaz from "../../assests/amazon.png"
 import bootstrap from "../../assests/bootstrap.png"
+import laravel from "../../assests/laravel.png"
+import figma from "../../assests/figma.png"
+import psd from "../../assests/psd.png"
+import npm from "../../assests/npm.png"
+import react from "../../assests/React.png"
 export default function About() {
       return (
       <div class="about row">
@@ -41,65 +46,100 @@ export default function About() {
 
                   <div>
                         <img src= {html} />
+                        <p>HTML</p>
                   </div>
 
                   <div>
                        <img src= {cc3} />
+                       <p>CSS</p>
 
                   </div>
                   <div>
                        <img src= {php} />
+                       <p>PHP</p>
 
                   </div>
                   <div>
                        <img src= {c} />
+                       <p>C++</p>
 
                   </div>
                   <div>
                        <img src= {sass} />
+                       <p>SCSS</p>
 
                   </div>
                   <div>
                        <img src= {bootstrap} />
+                       <p>BOOTSRTAP</p>
 
                   </div>
                   <div>
                        <img src= {mysql} />
+                       <p>MYSQL</p>
 
                   </div>
                   <div>
-                       <img src= {bootstrap} />
+                       <img src= {javascript} />
+                       <p>JAVASCRIPT</p>
 
                   </div>
                   <div>
                        <img src= {jquery} />
+                       <p>JQUERY</p>
 
                   </div>
 
                   <div>
                        <img src= {heroku} />
+                       <p>HEROKU</p>
 
                   </div>
 
                   <div>
                        <img src= {git} />
+                       <p>GIT</p>
 
                   </div>
 
                   <div>
                        <img src= {github} />
+                       <p>GITHUB</p>
 
                   </div>
                   <div>
                        <img src= {amaz} />
+                       <p>AWS</p>
 
                   </div>
                   <div>
                        <img src= {firebase} />
+                       <p>FIREBASE</p>
 
                   </div> 
                   <div>
-                       <img src= {bootstrap} />
+                       <img src= {Tailwind} />
+                       <p>Tailwind</p>
+                  </div>
+                  <div>
+                       <img src= {laravel} />
+                       <p>LARAVEL</p>
+                  </div>
+                  <div>
+                       <img src= {psd} />
+                       <p>PSD</p>
+                  </div>
+                  <div>
+                       <img src= {figma} />
+                       <p>FIGMA</p>
+                  </div>
+                  <div>
+                       <img src= {react} />
+                       <p>REACT</p>
+                  </div>
+                  <div>
+                       <img src= {npm} />
+                       <p>NPM</p>
                   </div>
             </div>
 

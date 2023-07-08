@@ -1,9 +1,12 @@
-body{
-    background-color: #78bCC4;
-}
+
 .about{
     width: 100%;
     padding-top: 4rem;
+    background-color: #5304b4;
+}
+.left, .right, .DataPersonel  {
+    background-color: #5304b4;
+
 }
 .DataPersonel  h3{
     font-weight: bolder;
@@ -11,6 +14,8 @@ body{
     color: white;
     text-decoration-line: underline;
     -moz-text-decoration-line: underline;
+    background-color: #5304b4;
+
 }
 .DataPersonel{
     margin-left: 9px;
@@ -18,8 +23,12 @@ body{
 .DataPersonel span{
     color: #002C3E;
     font-size: 16px;
+    background-color: #5304b4;
+
 }
 .right h3{
+    background-color: #5304b4;
+
     font-weight: bolder;
     font-size: 1.5rem;
     color: #f7444e;
@@ -70,23 +79,26 @@ body{
     }
 
     .skill{
-        display: grid;
-        grid-template-columns: 20% 20% 20% 20%;
-        width: 100%;
+        background-color: #310271;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        width: 50%;
         margin: auto;
+        display: grid;
+        grid-template-rows: 40% 40% 40% 40%;
+        margin-top: 3rem;
     }
     .skill div{
-        width: 88px;
-        height: 104px;
+        width: 118px;
+        height: 124px;
         background-color: #050020;
         position: relative;
     }
     .skill div img{
-        width: 46px;
-    height: 46px;
+    width: 55px;
+    height: 55px;
     position: absolute;
     background-color: #050020;
     left: 23%;
-    top: 23%;
+    top: 33%;
     }
 }

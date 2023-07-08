@@ -8,11 +8,15 @@
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
-.contact div{
- 
+.contact div:nth-child(1){
+    background-color: white;
+}
+.contact div:nth-child(1) img{
+  background-color: white;
 }
 .contact form  {
   padding-top: 2rem;
+  background-color: white;
 }
 form div {
   background-color: #E5ecfb;
@@ -37,11 +41,13 @@ form div input{
 }
 .inputField{
   display: flex;
+  background-color: #E5ecfb;
 }
 
 form div i{
   font-size: 20px;
   color: #333333;
+  background-color: #E5ecfb;
 }
 form button{
   padding: 10px 20px;

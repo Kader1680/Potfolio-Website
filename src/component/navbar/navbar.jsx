@@ -2,17 +2,22 @@ import { Link } from 'react-router-dom'
 
 import './navbar.css'
 
-import React from 'react'
+import {React, useState} from 'react'
 
 export default function Navbar() {
 
+    const [HomePage, setHomePage] = useState(false);
+
+    function Home() {
+        alert('rrr')
+    }
     return (
 
     <nav class="navbar">
 
-        <div class="Title">
+        <div onClick={Home} class="Title fw-bolder">
 
-            <h1>Portfolio</h1>
+            <h1>Vector</h1>
 
         </div>
 
