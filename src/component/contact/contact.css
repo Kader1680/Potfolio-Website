@@ -1,5 +1,26 @@
+@media(max-width:767px){
+  .contact div:nth-child(1) img{
+    width: 100%;
+  }
+  .contact{
+    max-width: 95%;
+    
+  }
+  form .inputField {
+    width: 100%;
+}
+  form button{
+    width: 100%;
+  }
+}
+@media(min-width:768px){
+  .contact{
+    max-width: 70%;
+    
+  }
+}
+
 .contact{
-  max-width: 70%;
   margin: 1rem auto;
   padding: 2rem;
   border-radius: 10px;
@@ -10,6 +31,7 @@
 }
 .contact div:nth-child(1){
     background-color: white;
+
 }
 .contact div:nth-child(1) img{
   background-color: white;
