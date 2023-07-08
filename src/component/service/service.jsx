@@ -5,7 +5,7 @@ import React from 'react'
 import "./service.css"
 export default function Service() {
     return (
-    <div class="service row">
+    <div class="container service row">
         <div className='fild col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12'>
             <img src={ser1} />
             <div class="details">

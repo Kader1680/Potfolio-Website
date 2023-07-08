@@ -24,124 +24,127 @@ import npm from "../../assests/npm.png"
 import react from "../../assests/React.png"
 export default function About() {
       return (
-      <div class="about row">
-            <div className='left col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6'>
+      <div class="about container">
+          <div className='AboutMe '>
+                    <div className='left '>
 
-                  <img src= {img} />
-                  
-            </div>
-            <div className='right col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6'>
-                  
-                  <div class="DataPersonel">
-                        <h3>I'm  <span>Abdelkader Ould Hennia</span></h3>
-                        <h3>Full Stack Developer</h3>
-                        <p>I am a Full-Stack developer based in Pune, India. I am an Information Technology undergraduate from SPPU. I am very passionate about improving my coding skills & developing applications & websites. I build WebApps and Websites using MERN Stack. Working for myself to improve my skills. Love to build Full-Stack clones.</p>
-                        <p>Email : jigarsable21@gmail.com</p>
-                        <p>Place : Pune, India - 412206</p>
-                  </div>
+                         <img src= {img} />
 
-            </div>
-            <h4 className=' text-center'> Skills & Abilities</h4>
-            <div className='skill text-center'>
+                    </div>
+                    <div className='right '>
 
-                  <div>
-                        <img src= {html} />
-                        <p>HTML</p>
-                  </div>
+                              
+                         <h3>I'm  <span>Abdelkader Ould Hennia</span></h3>
+                         <h3>Full Stack Developer</h3>
+                         <p>I am a Full-Stack developer based in Pune, India. I am an Information Technology undergraduate from SPPU. I am very passionate about improving my coding skills & developing applications & websites. I build WebApps and Websites using MERN Stack. Working for myself to improve my skills. Love to build Full-Stack clones.</p>
+                         <p>Email : jigarsable21@gmail.com</p>
+                         <p>Place : Pune, India - 412206</p>
 
-                  <div>
-                       <img src= {cc3} />
-                       <p>CSS</p>
+                    </div>
+          </div>
+          <div  class="MySkill   container">
+               <h4 className=' text-center'> Skills & Abilities</h4>
+               <div className='skill text-center'>
 
-                  </div>
-                  <div>
-                       <img src= {php} />
-                       <p>PHP</p>
+                    <div>
+                         <img src= {html} />
+                         <p>HTML</p>
+                    </div>
 
-                  </div>
-                  <div>
-                       <img src= {c} />
-                       <p>C++</p>
+                    <div>
+                         <img src= {cc3} />
+                         <p>CSS</p>
 
-                  </div>
-                  <div>
-                       <img src= {sass} />
-                       <p>SCSS</p>
+                    </div>
+                    <div>
+                         <img src= {php} />
+                         <p>PHP</p>
 
-                  </div>
-                  <div>
-                       <img src= {bootstrap} />
-                       <p>BOOTSRTAP</p>
+                    </div>
+                    <div>
+                         <img src= {c} />
+                         <p>C++</p>
 
-                  </div>
-                  <div>
-                       <img src= {mysql} />
-                       <p>MYSQL</p>
+                    </div>
+                    <div>
+                         <img src= {sass} />
+                         <p>SCSS</p>
 
-                  </div>
-                  <div>
-                       <img src= {javascript} />
-                       <p>JAVASCRIPT</p>
+                    </div>
+                    <div>
+                         <img src= {bootstrap} />
+                         <p>BOOTSRTAP</p>
 
-                  </div>
-                  <div>
-                       <img src= {jquery} />
-                       <p>JQUERY</p>
+                    </div>
+                    <div>
+                         <img src= {mysql} />
+                         <p>MYSQL</p>
 
-                  </div>
+                    </div>
+                    <div>
+                         <img src= {javascript} />
+                         <p>JAVASCRIPT</p>
 
-                  <div>
-                       <img src= {heroku} />
-                       <p>HEROKU</p>
+                    </div>
+                    <div>
+                         <img src= {jquery} />
+                         <p>JQUERY</p>
 
-                  </div>
+                    </div>
 
-                  <div>
-                       <img src= {git} />
-                       <p>GIT</p>
+                    <div>
+                         <img src= {heroku} />
+                         <p>HEROKU</p>
 
-                  </div>
+                    </div>
 
-                  <div>
-                       <img src= {github} />
-                       <p>GITHUB</p>
+                    <div>
+                         <img src= {git} />
+                         <p>GIT</p>
 
-                  </div>
-                  <div>
-                       <img src= {amaz} />
-                       <p>AWS</p>
+                    </div>
 
-                  </div>
-                  <div>
-                       <img src= {firebase} />
-                       <p>FIREBASE</p>
+                    <div>
+                         <img src= {github} />
+                         <p>GITHUB</p>
 
-                  </div> 
-                  <div>
-                       <img src= {Tailwind} />
-                       <p>Tailwind</p>
-                  </div>
-                  <div>
-                       <img src= {laravel} />
-                       <p>LARAVEL</p>
-                  </div>
-                  <div>
-                       <img src= {psd} />
-                       <p>PSD</p>
-                  </div>
-                  <div>
-                       <img src= {figma} />
-                       <p>FIGMA</p>
-                  </div>
-                  <div>
-                       <img src= {react} />
-                       <p>REACT</p>
-                  </div>
-                  <div>
-                       <img src= {npm} />
-                       <p>NPM</p>
-                  </div>
-            </div>
+                    </div>
+                    <div>
+                         <img src= {amaz} />
+                         <p>AWS</p>
+
+                    </div>
+                    <div>
+                         <img src= {firebase} />
+                         <p>FIREBASE</p>
+
+                    </div> 
+                    <div>
+                         <img src= {Tailwind} />
+                         <p>Tailwind</p>
+                    </div>
+                    <div>
+                         <img src= {laravel} />
+                         <p>LARAVEL</p>
+                    </div>
+                    <div>
+                         <img src= {psd} />
+                         <p>PSD</p>
+                    </div>
+                    <div>
+                         <img src= {figma} />
+                         <p>FIGMA</p>
+                    </div>
+                    <div>
+                         <img src= {react} />
+                         <p>REACT</p>
+                    </div>
+                    <div>
+                         <img src= {npm} />
+                         <p>NPM</p>
+                    </div>
+               </div>
+          </div>  
 
             
       </div>

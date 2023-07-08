@@ -30,23 +30,24 @@
         width:100%;
         overflow:hidden;
         margin: 0;
+        display: flex;
+        align-items: center;
+    }
+    .home div:nth-child(1) {
+        
         
     }
     .resume{
         width: 45%;
         margin: 5rem 0;
     }
-    .home div:nth-child(1) {
-        padding: 4rem 4rem;
-    }
+    
    
    
     .home div img{
-        width: 60%;
+        width: 100%;
         border-radius: 40px;
-        display: block;
-        margin: auto;
-        margin-top: 5rem;
+        
     }
     .social{
         margin-top: 2rem;
@@ -103,11 +104,6 @@
 .fa-download{
     background-color: transparent;
 }
-
-
-
-
-
 
 .home div:nth-child(1) p{
     color: #002C3E;

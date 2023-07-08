@@ -34,11 +34,11 @@ export default function Navbar() {
             <ul class="list">
 
                 
-                <li><Link to="/Potfolio-Website">Home</Link></li> 
-                <li><Link to="/Potfolio-Website/About">About </Link></li>
-                <li><Link to="/Potfolio-Website/Project">Project</Link></li>
-                <li><Link to="/Potfolio-Website/Services">Services</Link></li>
-                <li><Link to="/Potfolio-Website/Contact">Contact</Link></li>
+                <li><Link  target="_parent" to="/Potfolio-Website">Home</Link></li> 
+                <li><Link target="_parent" to="/Potfolio-Website/About">About </Link></li>
+                <li><Link target="_parent" to="/Potfolio-Website/Project">Project</Link></li>
+                <li><Link target="_parent" to="/Potfolio-Website/Services">Services</Link></li>
+                <li><Link target="_parent" to="/Potfolio-Website/Contact">Contact</Link></li>
 
             </ul>
 

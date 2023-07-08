@@ -5,7 +5,7 @@ import {Data} from "../../Data"
 import Field from "./field"
 export default function Project() {
   return (
-    <div className=' '>
+    <div className=' container'>
           <div  class="project row">
                 {
                   Data.map((item)=>{

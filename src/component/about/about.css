@@ -4,42 +4,26 @@
     padding-top: 4rem;
     background-color: #5304b4;
 }
-.left, .right, .DataPersonel  {
+.AboutMe .left {
     background-color: #5304b4;
-
 }
-.DataPersonel  h3{
-    font-weight: bolder;
-    font-size: 1.5rem;
-    color: white;
-    text-decoration-line: underline;
-    -moz-text-decoration-line: underline;
+.AboutMe .right{
     background-color: #5304b4;
-
-}
-.DataPersonel{
-    margin-left: 9px;
-}
-.DataPersonel span{
-    color: #002C3E;
-    font-size: 16px;
-    background-color: #5304b4;
-
 }
 .right h3{
     background-color: #5304b4;
-
-    font-weight: bolder;
-    font-size: 1.5rem;
-    color: #f7444e;
-    text-decoration-line: underline;
-    -moz-text-decoration-line: underline;
 }
-/* .right p{
-    font-size: 20px;
-    color: #f7444e;
 
-} */
+.right p{
+    background-color: #5304b4;
+}
+.right span{
+    background-color: #5304b4;
+}
+
+.right{
+    color: white; 
+}
 .left img{
     width: 300px;
     height: 300px;
@@ -53,20 +37,44 @@
 }
 
 @media(max-width: 767px){
-    .right{
-        width: 96%;
-        margin: auto;
-        text-align: start;
-    }
+    
     .description{
         width: 90%;
         display: block;
         margin: auto;
     }
+    .skill div img{
+        width: 59px;
+    height: 59px;
+        position: absolute;
+        background-color: #050020;
+        left: 4%;
+        top: 34%;
+        }
+
+    .skill{
+        background-color: #310271;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        
+        display: grid;
+        grid-template-rows: 27% 27% 27% 27%;
+        margin-top: 3rem;
+    }
+    .skill div{
+        
+        width: 69px;
+        height: 106px;
+
+        background-color: #050020;
+        position: relative;
+    }
 }
 @media(min-width: 767px){
     .about{
         width: 100%;
+    }
+    .about .AboutMe:nth-child(1){
+         display: flex;
     }
     .description{
         display: block;
@@ -81,24 +89,29 @@
     .skill{
         background-color: #310271;
         grid-template-columns: 20% 20% 20% 20% 20%;
-        width: 50%;
-        margin: auto;
+        
         display: grid;
-        grid-template-rows: 40% 40% 40% 40%;
+        grid-template-rows: 27% 27% 27% 27%;
         margin-top: 3rem;
     }
     .skill div{
-        width: 118px;
-        height: 124px;
+        width: 160px;
+        height: 160px;
         background-color: #050020;
         position: relative;
     }
     .skill div img{
-    width: 55px;
-    height: 55px;
-    position: absolute;
-    background-color: #050020;
-    left: 23%;
-    top: 33%;
-    }
+        width: 86px;
+        height: 86px;
+        position: absolute;
+        background-color: #050020;
+        left: 23%;
+        top: 33%;
+        }
+
+}
+
+.MySkill, h4{
+    background-color: #310271;
+    
 }
