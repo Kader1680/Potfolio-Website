@@ -57,7 +57,6 @@
         grid-template-columns: 20% 20% 20% 20% 20%;
         
         display: grid;
-        grid-template-rows: 27% 27% 27% 27%;
         margin-top: 3rem;
     }
     .skill div{
@@ -91,7 +90,6 @@
         grid-template-columns: 20% 20% 20% 20% 20%;
         
         display: grid;
-        grid-template-rows: 27% 27% 27% 27%;
         margin-top: 3rem;
     }
     .skill div{

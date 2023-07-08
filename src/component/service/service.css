@@ -4,7 +4,8 @@
         width: 100%;
     }
     .langage{
-        
+        display: grid;
+        grid-template-columns: 23% 23% 23% 27%;
     }
     .langage span{
         
@@ -42,7 +43,7 @@
 }
 
 .langage span{
-    background-color: #f7444e;
+    background-color: #002C3E;
     margin: 0px 5px;
     padding: 3px;
     color: white;
@@ -51,17 +52,18 @@
     -moz-border-radius: 3px;
     -ms-border-radius: 3px;
     -o-border-radius: 3px;
+    text-align: center;
 }
-.details button{
+.fild .details button{
     border: 0;
     margin-left: 1rem;
 }
-.details .cnt{
+.fild .details .cnt{
     background-color: white;
     border: 1px solid #002C3E;
     color: #002C3E;
 }
-.details button{
+.fild .details button{
     border: 0;
     margin-left: 1rem;
 }

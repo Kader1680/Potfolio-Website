@@ -9,7 +9,7 @@ export default function Service() {
         <div className='fild col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12'>
             <img src={ser1} />
             <div class="details">
-                <h2 class="fw-bolder fs-3">create Landing Page</h2>
+                <h2 class="fw-bolder fs-3">Convert PSD & Figma into HTML CSS JS Template</h2>
                 <p>i used figma to desing landing page and build using font end developement tools with responsive design  </p>
                 <div class="langage">
                     
@@ -21,14 +21,16 @@ export default function Service() {
                     <span>ReactJs</span>
                     <span>Ui/Ux</span>
                 </div>
-                <button>Select Order</button>
-                <button className="cnt">Contact Me</button>
+                <button className="cnt">
+                    
+                    <a class=" text-decoration-none" target="_blank" href="https://www.fiverr.com/ouldhenniaabdel/be-your-html-css-bootstrap-and-javascript-coder">Contact Me</a>
+                </button>
             </div>
         </div>
         <div className='fild col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12'>
             <img src={ser2} />
             <div class="details">
-                <h2 class="fw-bolder fs-3">Front End Landing Page</h2>
+                <h2 class="fw-bolder fs-3">Front End Web Developer</h2>
                 <p>i used figma to desing landing page and build using font end developement tools with responsive design  </p>
                 <div class="langage">
                     <span>Html</span>
@@ -39,8 +41,9 @@ export default function Service() {
                     <span>ReactJs</span>
                     <span>Ui/Ux</span>
                 </div>
-                <button>Select Order</button>
-                <button className="cnt">Contact Me</button>
+                <button className="cnt">
+                    <a class=" text-decoration-none" target="_blank" href="https://www.fiverr.com/ouldhenniaabdel/build-a-responsive-landing-page-in-20-hours"> Contact Me</a>
+                </button>
             </div>
         </div> 
     </div>
