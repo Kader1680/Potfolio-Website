@@ -1,6 +1,7 @@
 import React from 'react'
 import me  from "../../assests/me.png"
 import  "./home.css"
+
 export default function Home() {
   return (
     <div  class=" home container">

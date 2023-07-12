@@ -19,7 +19,6 @@
     
   }
 }
-
 .contact{
   margin: 1rem auto;
   padding: 2rem;
@@ -52,8 +51,6 @@ form div {
   padding: 10px 20px;
   margin-top: 1rem;
 }
-
-
 form div input{
   border: none;
   background-color: #E5ecfb;
@@ -65,7 +62,6 @@ form div input{
   display: flex;
   background-color: #E5ecfb;
 }
-
 form div i{
   font-size: 20px;
   color: #333333;
@@ -82,4 +78,12 @@ form button{
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   margin-top: 1rem;
+}
+form button{
+  padding: 25px 60px;
+  background-color: red;
+  background-color: green;
+  background-color: yellow;
+  background-color: blue;
+  background-color: black;
 }
