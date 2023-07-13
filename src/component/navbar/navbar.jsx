@@ -13,38 +13,46 @@ export default function Navbar() {
     }
     return (
 
-    <nav class="navbar">
+    <div>
+        <nav class="navbar">
 
-        <div onClick={Home} class="Title fw-bolder">
+            <div onClick={Home} class="Title fw-bolder">
 
-            <h1>Vector</h1>
+                <h1>Vector</h1>
 
-        </div>
+            </div>
 
-        <div class="Items">
+            <div class="Items">
 
-            <input type="checkbox" id="check" />
+                <input type="checkbox" id="check" />
 
-            <label for="check" class="checkBtn">
+                <label for="check" class="checkBtn">
 
-                <i class="fa fa-bars"></i>
+                    <i class="fa fa-bars"></i>
 
-            </label>
+                </label>
 
-            <ul class="list">
+                <ul class="list">
 
-                
-                <li><Link  target="_parent" to="/Potfolio-Website">Home</Link></li> 
-                <li><Link target="_parent" to="/Potfolio-Website/About">About </Link></li>
-                <li><Link target="_parent" to="/Potfolio-Website/Project">Project</Link></li>
-                <li><Link target="_parent" to="/Potfolio-Website/Services">Services</Link></li>
-                <li><Link target="_parent" to="/Potfolio-Website/Contact">Contact</Link></li>
+                    
+                    <li><Link  target="_parent" to="/Potfolio-Website">Home</Link></li> 
+                    <li><Link target="_parent" to="/Potfolio-Website/About">About </Link></li>
+                    <li><Link target="_parent" to="/Potfolio-Website/Project">Project</Link></li>
+                    <li><Link target="_parent" to="/Potfolio-Website/Services">Services</Link></li>
+                    <li><Link target="_parent" to="/Potfolio-Website/Contact">Contact</Link></li>
 
-            </ul>
+                </ul>
 
-        </div>
+            </div>
 
-    </nav>
+        </nav>
+
+
+
+
+    </div>
+
+
   )
 }
 

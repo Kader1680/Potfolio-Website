@@ -7,12 +7,15 @@ import About from './component/about/about';
 import Project from './component/project/project';
 import Contact from './component/contact/contact';
 import Service from './component/service/service';
+import NavBottom from './component/navbarBottom/NavBottom';
 function App() {
   return (
 
       <BrowserRouter>
           <div class="app">
               <Navbar />
+              <NavBottom />
+              
               <Routes>
                       <Route path="/Potfolio-Website" element={<Home  />} />
                       <Route path="/Potfolio-Website/About" element={<About  />} />

@@ -1,0 +1,38 @@
+@media(max-width:912px){
+    .Navbootom{
+        background-color: #002057;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+
+    }
+    .Navbootom .listBottom{
+        display: inline-block;
+        list-style: none;
+        background-color: #002057;
+
+    }
+    .listBottom li{
+        display: inline-block;
+        background-color: #002057;
+        margin: 0px 5px;
+        margin-top: 1rem;
+    }
+    .listBottom li a{
+        text-decoration: none;
+        color: white;
+        background-color: #002057;
+
+
+    }
+    .listBottom li i{
+        font-size: 25px;
+        color: white;
+        background-color: #002057;
+    }
+}
+@media(min-width:913px){
+    .listBottom{
+        display: none;
+    }
+}
