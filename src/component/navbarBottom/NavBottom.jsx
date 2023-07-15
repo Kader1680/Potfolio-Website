@@ -5,34 +5,51 @@ export default function NavBottom() {
   return (
     <div className='Navbootom'>
         
-        <ul class="listBottom text-center">
+        
 
                     
-            <li>
-                <i class="fa-solid fa-house"></i><br></br>
-                <Link  target="_parent" to="/Potfolio-Website">Home</Link>
+            <div className='Item'>
                 
-            </li> 
-            <li>
-                <i class="fa-solid fa-circle-info"></i><br></br>
-                <Link target="_parent" to="/Potfolio-Website/About">About </Link>
-            </li>
-            <li>
-                <i class="fa-solid fa-briefcase"></i><br></br>
-                <Link target="_parent" to="/Potfolio-Website/Project">Project</Link>
-            </li>
-            <li>
-                <i class="fa-solid fa-bag-shopping"></i><br></br>
-                <Link target="_parent" to="/Potfolio-Website/Services">Services</Link>
+                <Link to="/Potfolio-Website">
+                        <i class="fa-solid fa-house"></i>
+                        <span>Home</span>
+                </Link>
+                
+            </div> 
+            <div className='Item'>
+                
+                <Link to="/Potfolio-Website/About">
+                        <i class="fa-solid fa-circle-info"></i>
+                        <span>About</span>
+                 
+                </Link>
+            </div>
+            <div className='Item'>
+                <Link to="/Potfolio-Website/Project">
+                        <i class="fa-solid fa-briefcase"></i>
+                        <span>Project</span>
+                </Link>
+            </div>
+            <div className='Item'>
+                
+                
+                <Link to="/Potfolio-Website/Services">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <span>Services</span>
+                </Link>
             
-            </li>
-            <li>
-                <i class="fa-solid fa-phone"></i><br></br>
-                <Link target="_parent" to="/Potfolio-Website/Contact">Contact</Link>
+            </div>
+            <div className='Item'>
                 
-            </li>
+                <Link  to="/Potfolio-Website/Contact">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>Contact</span>
+                
+                </Link>
+                
+            </div>
 
-        </ul>
+       
     </div>
   )
 }

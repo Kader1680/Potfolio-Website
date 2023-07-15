@@ -1,4 +1,4 @@
-
+/* 
 .about{
     width: 100%;
     padding-top: 4rem;
@@ -23,17 +23,13 @@
 
 .right{
     color: white; 
-}
+} */
 .left img{
     width: 300px;
     height: 300px;
     margin: auto;
     display: block;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+    border-radius: 2px;
 }
 
 @media(max-width: 767px){
@@ -45,7 +41,7 @@
     }
     .skill div img{
         width: 59px;
-    height: 59px;
+        height: 59px;
         position: absolute;
         background-color: #050020;
         left: 4%;
@@ -55,7 +51,6 @@
     .skill{
         background-color: #310271;
         grid-template-columns: 20% 20% 20% 20% 20%;
-        
         display: grid;
         margin-top: 3rem;
     }
@@ -86,21 +81,20 @@
     }
 
     .skill{
-        background-color: #310271;
+        /* background-color: #310271; */
         grid-template-columns: 20% 20% 20% 20% 20%;
         
         display: grid;
-        margin-top: 3rem;
     }
     .skill div{
-        width: 160px;
-        height: 160px;
-        background-color: #050020;
+        width: 85px;
+        height: 85px;
+        /* background-color: #050020; */
         position: relative;
     }
     .skill div img{
-        width: 86px;
-        height: 86px;
+        width: 50px;
+        height: 50px;
         position: absolute;
         background-color: #050020;
         left: 23%;
@@ -109,7 +103,6 @@
 
 }
 
-.MySkill, h4{
-    background-color: #310271;
-    
+.right{
+    margin-top: 1rem; 
 }

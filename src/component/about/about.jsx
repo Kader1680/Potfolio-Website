@@ -31,117 +31,98 @@ export default function About() {
                          <img src= {img} />
 
                     </div>
-                    <div className='right '>
+                    <div className='right ms-md-3'>
 
                               
-                         <h3>I'm  <span>Abdelkader Ould Hennia</span></h3>
-                         <h3>Full Stack Developer</h3>
-                         <p>I am a Full-Stack developer based in Pune, India. I am an Information Technology undergraduate from SPPU. I am very passionate about improving my coding skills & developing applications & websites. I build WebApps and Websites using MERN Stack. Working for myself to improve my skills. Love to build Full-Stack clones.</p>
-                         <p>Email : jigarsable21@gmail.com</p>
-                         <p>Place : Pune, India - 412206</p>
+                         <h3>Front End Developer</h3>
+                         <p>Born : 23-01-2000</p>
+                         <p>Phone Number : +213549891600</p>
+                         <p>Place : Realizane, Algeria</p>
+                         <p>Email : ouldhenniabaghdad@gmail.com</p>
+                         <p>Place : Realizane, Algeria</p>
 
                     </div>
           </div>
           <div  class="MySkill   container">
-               <h4 className=' text-center'> Skills & Abilities</h4>
+               <h4 className='text-center'> Skills & Abilities</h4>
                <div className='skill text-center'>
 
                     <div>
                          <img src= {html} />
-                         <p>HTML</p>
                     </div>
 
                     <div>
                          <img src= {cc3} />
-                         <p>CSS</p>
 
                     </div>
                     <div>
                          <img src= {php} />
-                         <p>PHP</p>
 
                     </div>
                     <div>
                          <img src= {c} />
-                         <p>C++</p>
 
                     </div>
                     <div>
                          <img src= {sass} />
-                         <p>SCSS</p>
 
                     </div>
                     <div>
                          <img src= {bootstrap} />
-                         <p>BOOTSRTAP</p>
 
                     </div>
                     <div>
                          <img src= {mysql} />
-                         <p>MYSQL</p>
 
                     </div>
                     <div>
                          <img src= {javascript} />
-                         <p>JAVASCRIPT</p>
 
                     </div>
                     <div>
                          <img src= {jquery} />
-                         <p>JQUERY</p>
 
                     </div>
 
                     <div>
                          <img src= {heroku} />
-                         <p>HEROKU</p>
 
                     </div>
 
                     <div>
                          <img src= {git} />
-                         <p>GIT</p>
 
                     </div>
 
                     <div>
                          <img src= {github} />
-                         <p>GITHUB</p>
 
                     </div>
                     <div>
                          <img src= {amaz} />
-                         <p>AWS</p>
 
                     </div>
                     <div>
                          <img src= {firebase} />
-                         <p>FIREBASE</p>
 
                     </div> 
                     <div>
                          <img src= {Tailwind} />
-                         <p>Tailwind</p>
                     </div>
                     <div>
                          <img src= {laravel} />
-                         <p>LARAVEL</p>
                     </div>
                     <div>
                          <img src= {psd} />
-                         <p>PSD</p>
                     </div>
                     <div>
                          <img src= {figma} />
-                         <p>FIGMA</p>
                     </div>
                     <div>
                          <img src= {react} />
-                         <p>REACT</p>
                     </div>
                     <div>
                          <img src= {npm} />
-                         <p>NPM</p>
                     </div>
                </div>
           </div>  

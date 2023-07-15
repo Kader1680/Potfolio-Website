@@ -8,6 +8,8 @@ export default function Home() {
         
         <div className=''>
             <h1>Hi There,I'm Abdelkader <span>Ould Hennia</span></h1>
+           <h3>Front End Developer | Web Designer </h3>
+           <p>I Am A Front-End Developer With 1 Year Commercial Experience, Author Of JS Foundations, And Graduate Of Internet Technology. I Create Successful Websites That Are Fast, Easy To Use, And Built With Best Practices </p>
            
             <a class=" resume text-decoration-none text-black" href="https://drive.google.com/file/d/1KlBNLR2yty75Rw8goF-LJdtnm2ZPGydA/view?usp=drive_link" download>
                 Resume
