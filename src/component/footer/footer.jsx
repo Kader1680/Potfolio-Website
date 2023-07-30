@@ -5,7 +5,7 @@ export default function Footer() {
   return (
 
     <footer>
-    jjlkjklj
+          Create By 
     </footer>
 
 

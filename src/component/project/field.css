@@ -4,6 +4,9 @@
         margin: 15px 0;
         padding: 20px;
     }
+    .project{
+        margin-bottom: 7rem;
+    }
 }
 
 
@@ -16,9 +19,11 @@
 
 }
 .feild .square{
-    background-color: #002C3E;
+    /* background-color: #002C3E; */
+    background-color: #c6c6c6;
     width: 100%;
-    padding: 15px 10px;
+    /* padding: 15px 10px; */
+    padding: 0;
     margin: 1rem 0;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -28,13 +33,15 @@
 }
 
 .square h3{
-    font-size: 16px;
-    color: #f7444e;
-    margin: 10px 0px;
+    font-size: 20px;
+    color: #002057;
+    padding: 10px 0px;
     
 }
 
-.square a{
-    font-size: 16px;
-    color: white;
+.square a, i{
+    font-size: 30px;
+    color: #002057;
+    background-color: #c6c6c6;
+
 }

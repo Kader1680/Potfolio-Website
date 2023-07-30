@@ -60,7 +60,7 @@ export const Data = [
         source:"https://github.com/Kader1680/ClientFiverrWebsite"
     },
     {
-        title: "Web App To Stock Medicament",
+        title: "Stock Medicament",
         langage : "html",
         img : TRAID,
         link:" ",

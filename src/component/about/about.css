@@ -49,17 +49,18 @@
         }
 
     .skill{
-        background-color: #310271;
+        /* background-color: #310271; */
         grid-template-columns: 20% 20% 20% 20% 20%;
         display: grid;
-        margin-top: 3rem;
+        margin-top: 2rem;
+        margin-bottom: 6rem;
     }
     .skill div{
         
         width: 69px;
         height: 106px;
 
-        background-color: #050020;
+        /* background-color: #050020; */
         position: relative;
     }
 }

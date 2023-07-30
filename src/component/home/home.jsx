@@ -1,5 +1,6 @@
 import React from 'react'
-import me  from "../../assests/me.png"
+import met  from "../../assests/met.png"
+import cv from "../../assests/Document.pdf"
 import  "./home.css"
 
 export default function Home() {
@@ -11,9 +12,9 @@ export default function Home() {
            <h3>Front End Developer | Web Designer </h3>
            <p>I Am A Front-End Developer With 1 Year Commercial Experience, Author Of JS Foundations, And Graduate Of Internet Technology. I Create Successful Websites That Are Fast, Easy To Use, And Built With Best Practices </p>
            
-            <a class=" resume text-decoration-none text-black" href="https://drive.google.com/file/d/1KlBNLR2yty75Rw8goF-LJdtnm2ZPGydA/view?usp=drive_link" download>
+            <a class=" resume text-decoration-none" href={cv} download  target='_blank'>
                 Resume
-                <i class="ms-2 fa-solid fa-download"></i>
+                <i class="text-white ms-3 fa-solid fa-download"></i>
             </a>
             <div className='social '>
                   <a href="https://www.linkedin.com/in/abdelkader-ould-hennia/" target='_blank'><i class="fa-brands fa-linkedin"></i></a>
@@ -24,7 +25,7 @@ export default function Home() {
             </div>
         </div>
         <div className=''>
-            <img src={me} />
+            <img src={met} />
         </div>
     </div>
   )

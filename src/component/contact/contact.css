@@ -4,6 +4,8 @@
   }
   .contact{
     max-width: 95%;
+    margin-bottom: 6rem;
+    margin: 0 auto;
     
   }
   form .inputField {
@@ -16,11 +18,11 @@
 @media(min-width:768px){
   .contact{
     max-width: 70%;
+    margin: 1rem auto;
     
   }
 }
 .contact{
-  margin: 1rem auto;
   padding: 2rem;
   border-radius: 10px;
   -webkit-border-radius: 10px;

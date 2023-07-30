@@ -9,16 +9,16 @@ export default function Navbar() {
     const [HomePage, setHomePage] = useState(false);
 
     function Home() {
-        alert('rrr')
+        setHomePage('')
     }
     return (
 
-    <div>
+    <div className='container'>
         <nav class="navbar">
 
             <div onClick={Home} class="Title fw-bolder">
 
-                <h1>Vector</h1>
+                <h1><Link className=' text-decoration-none' to="/Potfolio-Website">Vector</Link></h1>
 
             </div>
 
