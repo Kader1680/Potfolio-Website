@@ -1,4 +1,5 @@
 import c from "./assests/c++.png"
+import NtCmplte from "./assests/NT.png"
 import book from "./assests/book.png"
 import convert from "./assests/convert.png"
 import portfolio from "./assests/portfolio.png"
@@ -72,5 +73,16 @@ export const Data = [
         img : c,
         source:"https://github.com/Kader1680/Student-System-OOP-C-"
     },
-
+    {
+        title: "Ecommerce React Js",
+        langage : "html",
+        img : NtCmplte,
+        source:"https://github.com/Kader1680/Student-System-OOP-C-"
+    },
+    {
+        title: "CRUD Php Mysql",
+        langage : "html",
+        img : NtCmplte,
+        source:"https://github.com/Kader1680/Student-System-OOP-C-"
+    },
 ]
