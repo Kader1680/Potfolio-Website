@@ -3,9 +3,10 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto Slab', serif;
-  background-color: #F7f7f7;
 
 }
-body{
-  /* background-color: #F7f7f7; */
+html body{
+  background-color: #20272f;
+  color: white;
+
 }

@@ -1,13 +1,12 @@
 .project{
     width: 100%;
     margin: auto;
+    margin-top: 5rem;
 }
 .project .itemProject{
 
 }
-@media(min-width : 768px){
+/* @media(min-width : 768px){
 
-    .project{
-        margin-top: 3rem;
-    }
-}
+    
+} */

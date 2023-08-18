@@ -1,29 +1,4 @@
-/* 
-.about{
-    width: 100%;
-    padding-top: 4rem;
-    background-color: #5304b4;
-}
-.AboutMe .left {
-    background-color: #5304b4;
-}
-.AboutMe .right{
-    background-color: #5304b4;
-}
-.right h3{
-    background-color: #5304b4;
-}
 
-.right p{
-    background-color: #5304b4;
-}
-.right span{
-    background-color: #5304b4;
-}
-
-.right{
-    color: white; 
-} */
 .left img{
     width: 300px;
     height: 300px;
@@ -41,32 +16,35 @@
     }
     .skill div img{
         width: 59px;
-        height: 59px;
-        position: absolute;
-        background-color: #050020;
-        left: 4%;
-        top: 34%;
+        
+        
         }
 
     .skill{
-        /* background-color: #310271; */
-        grid-template-columns: 20% 20% 20% 20% 20%;
-        display: grid;
-        margin-top: 2rem;
-        margin-bottom: 6rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+
     }
     .skill div{
         
-        width: 69px;
-        height: 106px;
-
-        /* background-color: #050020; */
-        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: #535d67;
+        width: 215px;
+        justify-content: center;
+        margin-top: 1rem;
+        transition: .5s;
     }
 }
 @media(min-width: 767px){
     .about{
         width: 100%;
+        height: 100vh;
+        padding-top: 7rem;
     }
     .about .AboutMe:nth-child(1){
          display: flex;
@@ -82,24 +60,35 @@
     }
 
     .skill{
-        /* background-color: #310271; */
-        grid-template-columns: 20% 20% 20% 20% 20%;
+       
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+
         
-        display: grid;
     }
     .skill div{
-        width: 85px;
-        height: 85px;
-        /* background-color: #050020; */
-        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: #535d67;
+        width: 215px;
+        justify-content: center;
+        margin-top: 1rem;
+        transition: .5s;
+    }
+    .skill div:hover{
+        color: #535d67;
+        background-color: #00bd95;
+
+    }
+    .skill div h4{
+        font-size: 16px;
     }
     .skill div img{
         width: 50px;
-        height: 50px;
-        position: absolute;
-        background-color: #050020;
-        left: 23%;
-        top: 33%;
         }
 
 }

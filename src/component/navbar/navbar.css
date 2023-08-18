@@ -1,27 +1,33 @@
-nav{
+nav.navbar{
+    
     position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    justify-content: space-around;
 }
 .navbar {
-    background-color: #Ffffff;
+    background-color: #20272f;
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    color: #1b303c;
-    position: fixed;
+    color: white;
+
 
 }
-.Title{
-    background-color: #Ffffff;
+.navbar .Title{
     
+    
+  
     margin-left: 2rem;
 }
 
 .Title h1 a{
     font-size: 2.5rem;
     cursor: pointer;
-    background-color: #Ffffff;
-    color: #002C3E;
+  
 
 }
 .checkBtn {
@@ -44,31 +50,37 @@ nav{
     font-size: 2rem;
 }
 .Items{
-background-color: #Ffffff;
+/* background-color: #Ffffff; */
+background-color: #20272f;
+
 
 }
 .Items ul {
     display: flex;
     list-style: none;
     margin-top: 10px;
-background-color: #Ffffff;
+    background-color: #20272f;
+    
+
+/* background-color: #Ffffff; */
 
 }
 
 .Items ul li a {
-    background-color: #Ffffff;
+    /* background-color: #Ffffff; */
     padding: 10px 15px;
     font-size: 1.2rem;
-    color: #1b303c;
     cursor: pointer;
     text-decoration: none;
     transition: all 1s;
+    color: white;
+
 }
 
 .Items ul li a:hover {
     
-    color: #1930ff;
-    border-bottom: 2px solid #1930ff;
+    color: #0b846e;
+    border-bottom: 2px solid #0b846e;
     transition: .2s;
     width:   10%;
 }
@@ -105,11 +117,8 @@ background-color: #Ffffff;
     margin-top: 30px;
 }
 
-i{
-    background-color: #Ffffff;
+i label{
+    background-color: #20272f;
 
 }
-}
-label {
-    background-color: #Ffffff;
 }

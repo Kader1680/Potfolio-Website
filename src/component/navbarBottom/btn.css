@@ -1,7 +1,8 @@
 
 @media(max-width:911px){
     .Navbootom{
-        background-color: #002057;
+        background-color: #20272f;
+        color: white;
         position: fixed;
         width: 100%;
         bottom: 0;
@@ -12,7 +13,8 @@
     
     }
     .Navbootom .Item{
-        background-color: #002057;
+        background-color: #20272f;
+    
     }
     .Navbootom .Item a{
         display: flex;
@@ -21,19 +23,20 @@
         gap: 8px;
         padding: 10px 0px;
         text-decoration: none;
-        background-color: #002057;
+        background-color: #20272f;
+  
     
     }
     .Item a span {
         font-size: 14px;
         color: white;
-        background-color: #002057;
+        background-color: #20272f;
     
     }
     .Item a i{
         font-size: 26px;
         color: white;
-        background-color: #002057;
+        background-color: #20272f;
     }
 }
 

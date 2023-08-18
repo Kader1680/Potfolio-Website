@@ -1,5 +1,5 @@
 @media(max-width:767px){
-
+    
     .service .fild img{
         width: 100%;
     }
@@ -21,6 +21,16 @@
     
 }
 @media(min-width:768px){
+    .service{
+        /* position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%; */
+        
+      
+
+    }
     .service .fild{
         display: flex;
         align-items: center;
@@ -47,7 +57,6 @@
     -o-border-radius: 5px;
 }
 .service{
-    margin: 30px auto;
     width: 100%;
 }
 .details h2{
@@ -89,3 +98,7 @@
   margin-top: 1rem;
   font-size: 12px;
 }
+.service{
+    margin: 6rem auto;
+
+    }

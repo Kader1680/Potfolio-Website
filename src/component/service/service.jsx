@@ -15,15 +15,6 @@ export default function Service() {
             <div class="details">
                 <h2 class="fw-bolder ">Convert PSD & Figma into HTML CSS JS Template</h2>
                 <p>i used figma to desing landing page and build using font end developement tools with responsive design  </p>
-                {/* <div class="langage">
-                    <span>Html</span>
-                    <span>Css</span>
-                    <span>JS</span>
-                    <span>Bootstrap</span>
-                    <span>Scss</span>
-                    <span>ReactJs</span>
-                    <span>Ui/Ux</span>
-                </div> */}
                 <button className="cnt">
                     
                     <a class=" text-decoration-none" target="_blank" href="https://www.fiverr.com/ouldhenniaabdel/be-your-html-css-bootstrap-and-javascript-coder">Contact Me</a>
@@ -35,15 +26,7 @@ export default function Service() {
             <div class="details">
                 <h2 class="fw-bolder ">Front End Web Developer</h2>
                 <p>i used figma to desing landing page and build using font end developement tools with responsive design  </p>
-                {/* <div class="langage">
-                    <span>Html</span>
-                    <span>Css</span>
-                    <span>JS</span>
-                    <span>Bootstrap</span>
-                    <span>Scss</span>
-                    <span>ReactJs</span>
-                    <span>Ui/Ux</span>
-                </div> */}
+                
                 <button className="cnt">
                     <a class=" text-decoration-none" target="_blank" href="https://www.fiverr.com/ouldhenniaabdel/build-a-responsive-landing-page-in-20-hours"> Contact Me</a>
                 </button>

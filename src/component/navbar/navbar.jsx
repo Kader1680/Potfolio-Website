@@ -14,32 +14,33 @@ export default function Navbar() {
     return (
 
     <div className='container'>
-        <nav class="navbar">
+        <nav  class="navbar ">
 
             <div onClick={Home} class="Title fw-bolder">
 
-                <h1><Link className=' text-decoration-none' to="/Potfolio-Website">Vector</Link></h1>
+                <h1><Link className='text-white text-decoration-none' to="/Potfolio-Website">Vector</Link></h1>
 
             </div>
 
-            <div class="Items">
+    
+            <div style={{ backgroundColor:"#20272f" }} class="Items text-white">
 
                 <input type="checkbox" id="check" />
 
                 <label for="check" class="checkBtn">
 
-                    <i class="fa fa-bars"></i>
+                    <i style={{ backgroundColor:"#20272f" }} class="fa fa-bars"></i>
 
                 </label>
 
-                <ul class="list">
+                <ul style={{ backgroundColor:"#20272f" }} class="list ">
 
                     
-                    <li><Link  target="_parent" to="/Potfolio-Website">Home</Link></li> 
-                    <li><Link target="_parent" to="/Potfolio-Website/About">About </Link></li>
-                    <li><Link target="_parent" to="/Potfolio-Website/Project">Project</Link></li>
-                    <li><Link target="_parent" to="/Potfolio-Website/Services">Services</Link></li>
-                    <li><Link target="_parent" to="/Potfolio-Website/Contact">Contact</Link></li>
+                    <li style={{ backgroundColor:"#20272f" }} ><Link  target="_parent" to="/Potfolio-Website">Home</Link></li> 
+                    <li style={{ backgroundColor:"#20272f" }} ><Link target="_parent" to="/Potfolio-Website/About">About </Link></li>
+                    <li style={{ backgroundColor: "#20272f" }}  ><Link target="_parent" to="/Potfolio-Website/Project">Project</Link></li>
+                    <li style={{ backgroundColor: "#20272f" }}  ><Link target="_parent" to="/Potfolio-Website/Services">Services</Link></li>
+                    <li style={{ backgroundColor: "#20272f" }}  ><Link target="_parent" to="/Potfolio-Website/Contact">Contact</Link></li>
 
                 </ul>
 

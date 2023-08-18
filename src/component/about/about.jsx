@@ -24,7 +24,7 @@ import npm from "../../assests/npm.png"
 import react from "../../assests/React.png"
 export default function About() {
       return (
-      <div class="about container">
+      <div style={{ backgroundColor:"#20272f" }} class="about container text-white">
           <div className='AboutMe '>
                     <div className='left '>
 
@@ -43,88 +43,111 @@ export default function About() {
 
                     </div>
           </div>
-          <div  class="MySkill   container">
+          <div  class="MySkill">
                <h4 className='text-center'> Skills & Abilities</h4>
-               <div className='skill text-center'>
+               <section className='skill text-center'>
 
                     <div>
                          <img src= {html} />
+                         <h4>HTML 5</h4>
                     </div>
 
                     <div>
                          <img src= {cc3} />
-
+                         <h4>CSS 3</h4>
                     </div>
                     <div>
                          <img src= {php} />
-
+                         <h4>PHP</h4>
                     </div>
                     <div>
                          <img src= {c} />
-
+                         <h4>C++</h4>
                     </div>
                     <div>
                          <img src= {sass} />
+                         <h4>SASS</h4>
 
                     </div>
                     <div>
                          <img src= {bootstrap} />
+                         <h4>BOOTSTRAP</h4>
 
                     </div>
                     <div>
                          <img src= {mysql} />
+                         <h4>MYSQL</h4>
 
                     </div>
                     <div>
                          <img src= {javascript} />
+                         <h4>JAVASCRIPT</h4>
 
                     </div>
                     <div>
                          <img src= {jquery} />
+                         <h4>JQUERY</h4>
 
                     </div>
 
                     <div>
                          <img src= {heroku} />
+                         <h4>HEROKU</h4>
 
                     </div>
 
                     <div>
                          <img src= {git} />
+                         <h4>GIT</h4>
 
                     </div>
 
                     <div>
                          <img src= {github} />
+                         <h4>GUTHUB</h4>
 
                     </div>
                     <div>
                          <img src= {amaz} />
+                         <h4>AWS</h4>
 
                     </div>
                     <div>
                          <img src= {firebase} />
+                         <h4>FIREBASE</h4>
 
                     </div> 
                     <div>
                          <img src= {Tailwind} />
+                         <h4>TAILWIND</h4>
+
                     </div>
                     <div>
                          <img src= {laravel} />
+                         <h4>LARAVEL</h4>
+
                     </div>
                     <div>
                          <img src= {psd} />
+                         <h4>PSD</h4>
+
                     </div>
                     <div>
                          <img src= {figma} />
+                         <h4>FIGMA</h4>
+
                     </div>
                     <div>
                          <img src= {react} />
+                         <h4>REACT JS</h4>
+
                     </div>
                     <div>
                          <img src= {npm} />
+                         <h4>NPM</h4>
+
                     </div>
-               </div>
+               </section>
           </div>  
 
             

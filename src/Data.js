@@ -8,7 +8,7 @@ import coffe from "./assests/coffe.png"
 import albert from "./assests/albert.png"
 import Doctor from "./assests/doctor.png"
 import TRAID from "./assests/screencapture-localhost-Php-Mysql-website-2023-07-12-18_54_32.png"
-
+import crud from "./assests/Marketing Blog YouTube Thumbnail.png"
 export const Data = [
     {
         title: "Tempalte Medical Stedent",
@@ -74,13 +74,13 @@ export const Data = [
         source:"https://github.com/Kader1680/Student-System-OOP-C-"
     },
     {
-        title: "Ecommerce React Js",
+        title: "CRUD Php Mysql",
         langage : "html",
-        img : NtCmplte,
+        img : crud,
         source:"https://github.com/Kader1680/Student-System-OOP-C-"
     },
     {
-        title: "CRUD Php Mysql",
+        title: "Ecommerce React Js",
         langage : "html",
         img : NtCmplte,
         source:"https://github.com/Kader1680/Student-System-OOP-C-"
