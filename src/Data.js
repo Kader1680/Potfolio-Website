@@ -7,6 +7,8 @@ import medical from "./assests/medical.png"
 import coffe from "./assests/coffe.png"
 import albert from "./assests/albert.png"
 import Doctor from "./assests/doctor.png"
+import Ecommerce from "./assests/ecommerce.png"
+
 import TRAID from "./assests/screencapture-localhost-Php-Mysql-website-2023-07-12-18_54_32.png"
 import crud from "./assests/Marketing Blog YouTube Thumbnail.png"
 export const Data = [
@@ -77,12 +79,19 @@ export const Data = [
         title: "CRUD Php Mysql",
         langage : "html",
         img : crud,
-        source:"https://github.com/Kader1680/Student-System-OOP-C-"
+        source:"https://github.com/Kader1680/Website_Php_Mysql_Pure"
+    },
+    {
+        title: "Ecommerce React Js",
+        langage : "html",
+        img : Ecommerce,
+        link: "https://kader1680.github.io/SmallShoppingCart/",
+        source:"https://github.com/Kader1680/SmallShoppingCart"
     },
     {
         title: "Ecommerce React Js",
         langage : "html",
         img : NtCmplte,
-        source:"https://github.com/Kader1680/Student-System-OOP-C-"
+        source:" "
     },
 ]

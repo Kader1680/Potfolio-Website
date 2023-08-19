@@ -46,7 +46,7 @@ nav.navbar{
     margin-top: -3rem;
 }
 .checkBtn .fa-bars{
-    
+    color: white;
     font-size: 2rem;
 }
 .Items{
@@ -119,6 +119,6 @@ background-color: #20272f;
 
 i label{
     background-color: #20272f;
-
+    color: white;
 }
 }

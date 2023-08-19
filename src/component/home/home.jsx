@@ -28,7 +28,7 @@ export default function Home() {
                             </div>
                         </div>
 
-                        <img src={met} />
+                        <img className='profil' src={met} />
               </div>
           </div>
 
