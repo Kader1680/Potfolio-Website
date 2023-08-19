@@ -23,8 +23,8 @@ export default function Home() {
                                   <a href="https://www.linkedin.com/in/abdelkader-ould-hennia/" target='_blank'><i class="fa-brands fa-linkedin"></i></a>
                                   <a href="https://www.facebook.com/baghdad.ouldhennia.9" target='_blank'><i class="fa-brands fa-facebook"></i></a>
                                   <a href='https://github.com/Kader1680' target='_blank'><i class="fa-brands fa-github"></i></a>
-                                  <a href='https://github.com/Kader1680' target='_blank'><i class="fa-brands fa-twitter"></i></a>
-                                  <a href='https://github.com/Kader1680' target='_blank'><i class="fa-brands fa-dev"></i></a>
+                                  <a href='https://twitter.com/Kader_1680' target='_blank'><i class="fa-brands fa-twitter"></i></a>
+                                  <a href='https://dev.to/abdelkader' target='_blank'><i class="fa-brands fa-dev"></i></a>
                             </div>
                         </div>
 
