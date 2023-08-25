@@ -28,7 +28,7 @@ export const Data = [
     },
     {
         title: "Doctor Website ",
-        langage : "html",
+        langage : "html css js jquery",
         img : Doctor,
         link:"https://kader1680.github.io/MICO-HOSPITAL-Php/",
         source:"https://github.com/Kader1680/MICO-HOSPITAL-Php"

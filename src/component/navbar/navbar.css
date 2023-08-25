@@ -29,6 +29,12 @@ nav.navbar{
     cursor: pointer;
   
 
+    
+}
+.Title h1 a img{
+    width: 170px;
+  
+
 }
 .checkBtn {
     display: none;

@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-
+import clever from "../../assests/clever.png"
 import './navbar.css'
 
 import {React, useState} from 'react'
@@ -18,7 +18,9 @@ export default function Navbar() {
 
             <div onClick={Home} class="Title fw-bolder">
 
-                <h1><Link className='text-white text-decoration-none' to="/Potfolio-Website">Vector</Link></h1>
+                <h1><Link className='text-white text-decoration-none' to="/Potfolio-Website">
+                    <img  src= {clever} />
+                </Link></h1>
 
             </div>
 
