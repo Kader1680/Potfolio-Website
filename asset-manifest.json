@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Potfolio-Website/static/css/main.df2f3d68.css",
-    "main.js": "/Potfolio-Website/static/js/main.5903df61.js",
+    "main.css": "/Potfolio-Website/static/css/main.ae782e33.css",
+    "main.js": "/Potfolio-Website/static/js/main.3aa66d2f.js",
     "static/js/787.c1112931.chunk.js": "/Potfolio-Website/static/js/787.c1112931.chunk.js",
     "static/media/img.jpg": "/Potfolio-Website/static/media/img.119b210e6b14ce926c1b.jpg",
     "static/media/ecommerce.png": "/Potfolio-Website/static/media/ecommerce.39b4713e7a707d8c4478.png",
@@ -21,16 +21,17 @@
     "static/media/NT.png": "/Potfolio-Website/static/media/NT.f048444b1f3e670c11d5.png",
     "static/media/psd.png": "/Potfolio-Website/static/media/psd.85bfdb5436877cfea71a.png",
     "static/media/laravel.png": "/Potfolio-Website/static/media/laravel.8b2939ca7ad8851c40a2.png",
+    "static/media/clever.png": "/Potfolio-Website/static/media/clever.dcc3ddf53088334abbdb.png",
     "static/media/c++.png": "/Potfolio-Website/static/media/c++.285dc213d0fc1fa1d58d.png",
     "static/media/khamsat.png": "/Potfolio-Website/static/media/khamsat.960cc413d8a8c3644c21.png",
     "static/media/figma.png": "/Potfolio-Website/static/media/figma.72fbc535ebe253a5dbc4.png",
     "index.html": "/Potfolio-Website/index.html",
-    "main.df2f3d68.css.map": "/Potfolio-Website/static/css/main.df2f3d68.css.map",
-    "main.5903df61.js.map": "/Potfolio-Website/static/js/main.5903df61.js.map",
+    "main.ae782e33.css.map": "/Potfolio-Website/static/css/main.ae782e33.css.map",
+    "main.3aa66d2f.js.map": "/Potfolio-Website/static/js/main.3aa66d2f.js.map",
     "787.c1112931.chunk.js.map": "/Potfolio-Website/static/js/787.c1112931.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.df2f3d68.css",
-    "static/js/main.5903df61.js"
+    "static/css/main.ae782e33.css",
+    "static/js/main.3aa66d2f.js"
   ]
 }
