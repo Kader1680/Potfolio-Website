@@ -24,7 +24,7 @@ import npm from "../../assests/npm.png"
 import react from "../../assests/React.png"
 export default function About() {
       return (
-      <div style={{ backgroundColor:"#20272f" }} class="about container text-white">
+      <div style={{ backgroundColor:"#20272f" }} class="about container text-white ">
           <div className='AboutMe '>
                     <div className='left '>
 
@@ -37,13 +37,11 @@ export default function About() {
                          <h3>Front End Developer</h3>
                          <p>Born : 23-01-2000</p>
                          <p>Phone Number : +213549891600</p>
-                         <p>Place : Realizane, Algeria</p>
                          <p>Email : ouldhenniabaghdad@gmail.com</p>
-                         <p>Place : Realizane, Algeria</p>
 
                     </div>
           </div>
-          <div  class="MySkill">
+          <div  class="MySkill pb-5">
                <h4 className='text-center'> Skills & Abilities</h4>
                <section className='skill text-center'>
 

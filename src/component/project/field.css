@@ -18,11 +18,11 @@
     text-align: center;
 }
 .feild .square{
-    /* background-color: #002C3E; */
-    background-color: #00bd95;
+    background-color: rgb(66 72 78);
+    box-shadow: 0px 0px 4px 2px #a0a0a0d6;
+    padding: 20px 0;
     width: 100%;
-    /* padding: 15px 10px; */
-    padding: 0;
+    
     margin: 1rem 0;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -42,7 +42,8 @@
 
 .square a, i{
     font-size: 20px;
-    color: #002057;
-    background-color: #00bd95;
+    color: #00bd95;
+    background-color: rgb(66 72 78);
+
 
 }

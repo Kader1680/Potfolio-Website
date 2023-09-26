@@ -6,7 +6,16 @@
 .project .itemProject{
 
 }
-/* @media(min-width : 768px){
+@media(min-width : 768px){
+    .project{
+        padding-bottom: 5rem;
+    }
+}
 
-    
-} */
+.new{
+    left: 14px;
+    top: -13px;
+    font-size: 11px;
+    padding: 3px;
+    border-radius: 3px;
+}

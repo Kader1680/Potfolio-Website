@@ -8,10 +8,26 @@ import coffe from "./assests/coffe.png"
 import albert from "./assests/albert.png"
 import Doctor from "./assests/doctor.png"
 import Ecommerce from "./assests/ecommerce.png"
+import landy from "./assests/landy.png"
+import todos from "./assests/todos.png"
 
 import TRAID from "./assests/screencapture-localhost-Php-Mysql-website-2023-07-12-18_54_32.png"
 import crud from "./assests/Marketing Blog YouTube Thumbnail.png"
 export const Data = [
+    {
+        title: "ToDo List App React Js",
+        langage : "html",
+        link:" https://kader1680.github.io/ReactJs-Landing-page/",
+        source : "https://kader1680.github.io/CRUD-APP-REACT/",
+        img : todos,
+    },
+    {
+        title: "Landy",
+        langage : "html",
+        link:" https://kader1680.github.io/ReactJs-Landing-page/",
+        source : "https://github.com/Kader1680/ReactJs-Landing-page/tree/main/application",
+        img : landy,
+    },
     {
         title: "Tempalte Medical Stedent",
         langage : "html",
@@ -33,13 +49,7 @@ export const Data = [
         link:"https://kader1680.github.io/MICO-HOSPITAL-Php/",
         source:"https://github.com/Kader1680/MICO-HOSPITAL-Php"
     },
-    {
-        title: "Convert Psd To Html",
-        langage : "html",
-        img : convert,
-        link:"https://kader1680.github.io/Convert-Psd-To-Html/",
-        source:"https://github.com/Kader1680/Convert-Psd-To-Html"
-    },
+    
 
     {
         title: "Old Porftolio using Jquery",
@@ -87,6 +97,13 @@ export const Data = [
         img : Ecommerce,
         link: "https://kader1680.github.io/SmallShoppingCart/",
         source:"https://github.com/Kader1680/SmallShoppingCart"
+    },
+    {
+        title: "Convert Psd To Html",
+        langage : "html",
+        img : convert,
+        link:"https://kader1680.github.io/Convert-Psd-To-Html/",
+        source:"https://github.com/Kader1680/Convert-Psd-To-Html"
     },
     {
         title: "Ecommerce React Js",
